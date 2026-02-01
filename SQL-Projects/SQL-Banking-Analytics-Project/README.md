@@ -1,85 +1,72 @@
-# SQL Banking Analytics Project
+SQL Banking Analytics Project (MySQL)
+Overview
 
-## Overview
-This project focuses on analyzing customer, account, and transaction data
-for a retail bank using MySQL. The objective is to generate meaningful
-business insights related to customer behavior, transaction patterns,
-and potential risk indicators that support data-driven decision-making
-in a banking environment.
+This project focuses on analyzing customer and loan-related data for a retail bank using MySQL. The objective is to generate meaningful business insights related to customer demographics, income patterns, loan behavior, and digital banking adoption that support data-driven decision-making in a banking environment.
 
----
+The project is designed as a realistic banking analytics case study, similar to the type of analysis performed by data and business analysts in financial institutions.
 
-## Business Context
-Retail banks deal with large volumes of transactional data every day.
-However, raw data alone does not provide value unless it is structured,
-analyzed, and translated into actionable insights.
+Business Context
 
-In this scenario, the bank wants to:
-- Understand how customers interact with their accounts
-- Identify high-value customers contributing most to transaction volume
-- Detect early warning signals related to low balances and credit risk
+Retail banks manage large customer bases with diverse income profiles, loan requirements, and levels of digital adoption. Understanding these patterns is essential for identifying high-value customers, improving loan targeting strategies, monitoring potential risk indicators, and promoting digital banking services effectively.
 
----
+Without structured analysis, valuable insights remain hidden within raw customer data.
 
-## Problem Statement
-The bank does not have a centralized SQL-based analytical view to monitor
-customer performance, transaction trends, and risk indicators.
-As a result, decision-making related to customer strategy and risk
-management is slow and reactive.
+Problem Statement
 
-This project addresses that gap by using structured MySQL queries
-to analyze banking data and derive practical insights.
+The bank does not have a centralized SQL-based analytical view to understand customer income distribution, loan uptake, and behavioral patterns. As a result, decisions related to loan marketing, customer segmentation, and digital strategy are often reactive rather than data-driven.
 
----
+This project addresses that gap by using structured MySQL queries to analyze customer data and extract actionable insights.
 
-## Objectives
-- Analyze customer demographics and account behavior
-- Evaluate transaction patterns across customers and accounts
-- Identify high-value customers based on balances and transactions
-- Flag potential high-risk customers using balance and credit indicators
-- Demonstrate real-world SQL usage in a banking analytics context
+Objectives
 
----
+Analyze customer demographics such as age, income, and family size
 
-## Dataset Description
-The analysis is performed on a publicly available banking dataset
-that simulates real-world retail bank data.
+Identify high-income and high-value customer segments
 
-The dataset includes:
-- Customer information (age, location, account type)
-- Account-level details (balance, credit score)
-- Transaction-level data (date, type, amount)
+Evaluate personal loan adoption across income and education levels
 
-Dataset Source:
-https://www.kaggle.com/datasets/berkayalan/bank-marketing-data-set
+Study credit card and online banking usage patterns
 
----
+Demonstrate practical, real-world SQL usage in a banking analytics context
 
-## Tools & Technologies
-- MySQL
-- SQL (Joins, Subqueries, CTEs, Window Functions, Aggregations)
-- GitHub for version control and documentation
+Dataset Description
 
----
+The analysis is performed on a realistic banking customer dataset containing 1,000 customer records, designed to closely resemble data used in Indian retail banking scenarios.
 
-## Key Analysis Performed
-- Customer and account-level analysis
-- Transaction trend analysis
-- Customer segmentation using business rules
-- Identification of high-value and high-risk customers
-- Monthly transaction performance analysis
+The dataset includes customer demographics, financial attributes such as income and mortgage amount, and product usage indicators including personal loans, credit cards, and online banking.
 
----
+The data was imported into MySQL and validated using SQL queries before analysis.
 
-## Deliverables
-- Clean and structured MySQL queries
-- Business-focused insights derived from data
-- Well-documented SQL scripts suitable for real-world analytics use
+Tools & Technologies
 
----
+MySQL
 
-## Outcome
-This project demonstrates practical MySQL skills combined with
-business analytics thinking. The insights generated can support
-banking teams in customer strategy, revenue optimization,
-and early risk monitoring.
+SQL (Filtering, Aggregations, CASE statements, Subqueries)
+
+GitHub for version control and documentation
+
+Key Analysis Performed
+
+Customer income and demographic analysis
+
+Identification of high-value customer segments
+
+Personal loan adoption analysis
+
+Credit card and online banking usage trends
+
+Business rule–based customer segmentation
+
+Deliverables
+
+Clean and structured MySQL tables
+
+Well-organized SQL query files
+
+Business-focused insights derived from customer data
+
+Documentation suitable for recruiter and interview review
+
+Outcome
+
+This project demonstrates hands-on MySQL skills combined with business analytics thinking. The insights generated can support banking teams in improving customer targeting, loan strategies, and digital adoption initiatives.
